@@ -1,0 +1,20 @@
+$btnColor: #9B9BCA;
+$linkColor: #717784;
+$showcaseFont: #696A86;
+$sectionFont: #626780;
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Poppins', sans-serif; 
+}
+
+@import "_mixins.scss";
+@import "_header.scss";
+@import "_section.scss";  
